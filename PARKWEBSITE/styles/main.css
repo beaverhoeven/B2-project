@@ -8,11 +8,33 @@
     * Primaire kleur: #27AE60
     * Secundaire kleur: #2F80ED
 */
-.row{
-  display:flex;
-  flex-direction: row; 
-  justify-content: space-around;
+.flex-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "row1 row2"
+    "row3 row4"
 }
+
+.row1{ 
+  grid-area: row1; 
+}
+
+.row2{ 
+  grid-area: row2; 
+}
+
+.row3{ 
+  grid-area: row3; 
+}
+
+.row4{ 
+  grid-area: row4; 
+}
+
 body, html{
   margin: 0;
   padding: 0;
