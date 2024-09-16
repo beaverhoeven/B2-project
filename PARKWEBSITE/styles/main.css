@@ -8,7 +8,11 @@
     * Primaire kleur: #27AE60
     * Secundaire kleur: #2F80ED
 */
-
+.row{
+  display:flex;
+  flex-direction: row; 
+  justify-content: space-around;
+}
 body, html{
   margin: 0;
   padding: 0;
@@ -64,6 +68,7 @@ h1{
 h2{
   border-left: 5px solid #27AE60;
   padding-left: 10px;
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
 }
 
 main{
@@ -156,6 +161,7 @@ button{
 }
 
 .sidy-by-side{
+  
 }
 
 .description{
@@ -201,10 +207,11 @@ footer{
   }
 
   .row{
-    flex-direction: column;
+    display:flex;
+    flex-direction: row;
   }
   .sidy-by-side{
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
   }
 }
