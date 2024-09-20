@@ -55,7 +55,7 @@ header{
 
 h1{
   margin: 0;
-  font-family: 'Heartbeat';
+  font-family: 'Heartbeat', sans-serif;
   color: #27AE60;
   text-shadow: 
     3px 3px 0 #FCFCFC,
@@ -230,11 +230,11 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:url('PARKWEBSITE/fonts/heartbeat.eot') format('eot'),
+      url('PARKWEBSITE/fonts/heartbeat.otf') format('otf'),
+      url('PARKWEBSITE/fonts/heartbeat.woff') format('woff'),
+      url('PARKWEBSITE/fonts/heartbeat.svg') format('svg'),
+      url('PARKWEBSITE/fonts/heartbeat.ttf') format('truetype');
 }
 
 /*
